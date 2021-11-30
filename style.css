@@ -37,7 +37,6 @@ h2 {
 #text2 {
   width: 800px;
   height: 50px;
-  /* background-color: violet; */
   margin: 40px;
   display: flex;
   flex-direction: column;
@@ -57,10 +56,6 @@ h2 {
 }
 
 #counter {
-  /* width: 800px;
-    height: 200px; */
-  /* background-color: red;
-    border-radius: 30px; */
   font-size: 200px;
   color: yellow;
   display: flex;
@@ -69,19 +64,19 @@ h2 {
   align-items: center;
 }
 
-.bombBlast {
-  margin: 0;
-  padding: 0;
+#bombBlast {
+  background-color: white;
+  margin: 0px;
+  padding: 00px;
   width: 800px;
   height: 400px;
-  /* background-color: red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.bomb {
+img {
   width: 800px;
   height: 400px;
   border-radius: 40px;

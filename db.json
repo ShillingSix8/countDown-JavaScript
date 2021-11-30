@@ -1,0 +1,92 @@
+{
+  "bombs": [
+    {
+      "id": 1,
+      "name": "WW2",
+      "description": "How Much Deadlier Today's Nukes Are Compared to WWII A-Bombs",
+      "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.popularmechanics.com%2Fmilitary%2Fa23306%2Fnuclear-bombs-powerful-today%2F&psig=AOvVaw3dNSDtfAFDc3YhLKUQZdcM&ust=1638309787089000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCODt2dzJvvQCFQAAAAAdAAAAABAD"
+    },
+    {
+      "id": 2,
+      "name": "PILSEN-Lager",
+      "description": "Can pour. It's an opaque light brown with nice sparkle, finger-width off-white head with good retention and decent lacing. Aroma is stone fruits and mild pineapple. Taste follows aroma along with late malt base. Mouthfeel is light-to-medium bodied with thin, smooth texture, soft carbonation and finish as taste. Overall, neither super strong nor complex but enjoyable.",
+      "image_url": "https://images.punkapi.com/v2/4.png",
+      "reviews": [
+        "Wow, what a drop !",
+        "Got lost on the way home and woke up in a field"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "King Brown Dredge",
+      "description": "Black with rimming lacy beige head Aroma is raspberry and chocolate Flava fruity tart roasty definite notes of raspberry Feels light per style with lively fizz Finishes dry slightly tangy moderately bitter",
+      "image_url": "https://images.punkapi.com/v2/5.png",
+      "reviews": [
+        "Works better than anti-depressants",
+        "Best in a bottle"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Electric India",
+      "description": "Pours a pitch black with a tiny tan head and slight lacing.\n\nSmells of bourbon and raisins.\n\nTastes of bourbon, raisins, chocolate, coffee and sweet toasted malt with a warm boozy slightly bitter finish.\n\nMedium heavy body with really light carbonation. Lush syrupy mouthfeel.\n\nThis brew is a very strong, very sweet sipper",
+      "image_url": "https://images.punkapi.com/v2/6.png",
+      "reviews": [
+        "You feel it in your fingers and in your toes"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "BlastOff:12",
+      "description": "An Imperial Black Belgian Ale aged in old Invergordon Scotch whisky barrels with mountains of raspberries, tayberries and blackberries in each cask. Decadent but light and dry, this beer would make a fantastic base for ageing on pretty much any dark fruit - we used raspberries, tayberries and blackberries beause they were local.",
+      "image_url": "https://images.punkapi.com/v2/7.png",
+      "reviews": [
+        "Nothing good from Belgium!"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Headbanger",
+      "description": "12 oz can from Aldi (4 pack) with a July 2022 BB date stamped on the bottom.\nAppearance. Near black body with a decent beige head that leaves some spots of lacing on the glass.\nThis drinks like a high ABV milk stout. It has loads of chocolate flavor but the chocolate flavor could be of higher quality.\nOverall. Good value ... or great value if the chocolate flavor meets our beats your standards. Partially hidden ABV.",
+      "image_url": "https://images.punkapi.com/v2/9.png",
+      "reviews": [
+        "As avertised",
+        "Whoa where did i go"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Bramling X",
+      "description": "Nice and fudgey and roasty on the nose. Chocolate sauce, double chocolate cake, mocha. More nutty coffee. Roasted malt and a hint of smoke. Rye whiskey is very apparent and does take center stage after repeated whiffs, especially as the beer starts to warm. More Oaky vanillins come through with time and warmth, too.\n",
+      "image_url": "https://images.punkapi.com/v2/10.png",
+      "reviews": [
+        "Truly X-rated....was arrested nude running through the quad."
+      ]
+    },
+    {
+      "id": 8,
+      "name": "KEGerator",
+      "description": "Look: Very hazy deep amber/chestnut brown colored body beneath a full head of off-white foam. Good head retention and lacing but it should be better.Smell: Malty with soft bread and light caramel, some herbal character, and light spice.Taste: Spicier than the aroma suggests, but still malty. Medium and dark caramel notes work well with the woody and clove-like spiciness (do I detect a hint of cinnamon?). Nicely balanced. Soft notes of dark fruit (dark raisins, dried figs, dried dates, cherry) buoy it and tie it all together at the same time. Remarkably well balanced with a moderate bitterness working hand in hand with the alcohol and spice to dry it in the finish despite the malt component. ",
+      "image_url": "https://images.punkapi.com/v2/keg.png",
+      "reviews": []
+    },
+    {
+      "id": 9,
+      "name": "Arcade Nation",
+      "description": "Poured from a pint can into a fluted glass. The body of the beer is a bright red in color, with a small pinkish red. Nice raspberry aroma. The first sip is ver much about the taste of raspberries, in a good way. Some of these fruit beers have a chemical taste but this is not one of those. Fizzy, carbonated mouth feeling. I would drink it again",
+      "image_url": "https://images.punkapi.com/v2/12.png",
+      "reviews": [
+        "Nothing to say!"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Movember",
+      "description": "My friend who doesn't drink sniffed it and said, \"...I don't know what I'm smelling...\" I have to agree, and with the advice to come with no preconceptions. I was still sniffing as I poured when the head nearly got my nose! I love the creamy feel. While others (including my friend's sniffer) didn't detect much alcohol, my taster said, \"Yep, 11.4%(so it says on the bottle)\". I find it very, very good. Not a bit sweet, like a piece of 84% cocoa. Kind of fruity, I guess, smell wise. I'd love to be more helpful, but it comes at me from a lot of angles I haven't had a lot of.\n",
+      "image_url": "https://images.punkapi.com/v2/13.png",
+      "reviews": [
+        "Hairy start but ended on a high note"
+      ]
+    }
+  ]
+}
