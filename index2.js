@@ -19,43 +19,41 @@ function updateCounter() {
 
 const bombImage = document.querySelector('#bombBlast');
 
-const url = "http://localhost:3000/bombs/";
 
 const fetchBombImage = async (url) => {
   const response = await fetch(url);
-  const Data = await response.json();
-  return Data;
+  const data = await response.json();
+  console.log("data from fetchBombImage", data);
+  return data;
 }
 
-const createBombImage = (imageItem) => {
-  return `<img src="${imageItem}" alt='Bomb Blast' />`;
+const createBombImage = (imageSource) => {
+  return `<img src="${imageSource}" alt='Bomb Blast' />`;
 };
 
 document.addEventListener("DOMContentLoaded", async () => {
   const serverResponse = await fetchBombImage('http://localhost:3000/bombs');
-  const serverData = serverResponse;
 
-  console.log(serverResponse);
 
-  serverData.forEach((imageItem) => {
-    bombImage.innerHTML += createBombImage(imageItem);
-  })
+  serverResponse.forEach((imageItem) => {
+    bombImage.innerHTML += createBombImage(imageItem.image_url);
+  });
 });
 
 let myBomb = 0;
 
-bombCarousel(createBombImage);
 
 function bombCarousel() {
-  let i;
-  let x = bombBlast.querySelector("img");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+  let image = bombBlast.querySelectorAll("img");
+  for (i = 0; i < image.length; i++) {
+    image[i].style.display = "none";
   }
   myBomb++;
-  if (myBomb > x.length) {
+  if (myBomb > image.length) {
     myBomb = 1;
   }
-  x[myBomb - 1].style.display = "block";
+  image[myBomb - 1].style.display = "block";
   setTimeout(bombCarousel, 1000);
 }
+
+bombCarousel(createBombImage);
